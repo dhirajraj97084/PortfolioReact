@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div className=' bg-gradient-to-l from-indigo-400 via-purple-400 to-pink-400  text-white'>
+    <div className=' bg-transparent text-white'>
       {/* navbar */}
-      <div className="main container mx-auto flex justify-between lg:px-[13rem] items-center px-8 sm:px-16   py-2">
+      <div className="main container mx-auto flex justify-between lg:px-[13rem] items-center px-8 sm:px-16  py-2">
         {/* logo */}
         <div className="div"><Link to={'/'}><img className='md:h-16 h-12' src="/logo.png" alt="img" /></Link></div>
         {/* desktopMenu */}
