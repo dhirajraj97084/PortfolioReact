@@ -9,16 +9,19 @@ function Navbar() {
         {/* logo */}
         <div className="div"><Link to={'/'}><img className='md:h-16 h-12' src="/logo.png" alt="img" /></Link></div>
         {/* desktopMenu */}
-        <div className="div hidden md:block">
+        <div className="div hidden md:block text-black">
           <ul className='flex items-center space-x-12 font-bold cursor-pointer'>
-          <Link><li className='hover:scale-105 transition-all'>Home</li></Link>
-          <Link><li className='hover:scale-105 transition-all'>About</li></Link>
-          <Link><li className='hover:scale-105 transition-all'>Projects</li></Link>
-          <Link><li className='hover:scale-105 transition-all'>Contact</li></Link>
+          <Link><li className='hover:scale-105 transition-all text-red-600 underline underline-offset-8'>Home</li></Link>
+          <Link><li className='hover:scale-105 transition-all hover:text-red-600 '>About</li></Link>
+          <Link><li className='hover:scale-105 transition-all hover:text-red-600 '>Services</li></Link>
+          <Link><li className='hover:scale-105 transition-all hover:text-red-600 '>Certificates</li></Link>
+          <Link><li className='hover:scale-105 transition-all hover:text-red-600 '>Portfolio</li></Link>
+          <Link><li className='hover:scale-105 transition-all hover:text-red-600 '>Contact</li></Link>
+          <Link><li className='hover:scale-105 transition-all hover:text-red-600 '>Testimonials</li></Link>
           </ul>
         </div>
          {/* mobileMenu */}
-        <div className="div md:hidden">mobile</div>
+        <div className="div md:hidden text-black">mobile</div>
       </div>
     </div>
   )
