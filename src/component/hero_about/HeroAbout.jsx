@@ -8,9 +8,9 @@ function HeroAbout() {
      <div className="heading  ">
      <h1 className='flex justify-center text-2xl md:text-4xl lg:text-5xl font-black '>About Dhiraj !</h1>
      <div className="para py-4 md:py-8">
-     <p className='pt-4 text-black/75 text-xl font-normal'>This is Dhiraj Kumar Tiwari, a Full-stack Software Developer who can build you Full-stack apps with "React.js, Next.js, React Native, Vue.js or Nuxt.js ecosystem for Frontend Development" and "Node.js, Java Spring or Ruby on Rails ecosystem for Backend API Development" along with "Multiple Database options (PostgreSQL, MySQL, MongoDB, DynamoDB, etc)" to choose from for Data Persistence.</p>
-     <p className='pt-4 text-black/75 text-xl font-normal'>When it comes to Web API's, I can work with both REST API and GraphQL API.</p>
-     <p className='pt-4 text-black/75 text-xl font-normal'>I have a Master's Degree in Computer Applications and is a Java, Javascript, and TypeScript Developer and my current Full Stack Tech-Stack revolves around that for building Web Apps & APIs. I hold a Master's Degree in Computer Applications, and is an Amazon Web Services (AWS) Certified Developer Associate. I also know Python & Ruby.</p>
+     <p className='pt-4 text-black/75 md:text-xl font-normal'>This is Dhiraj Kumar Tiwari, a Full-stack Software Developer who can build you Full-stack apps with "React.js, Next.js, React Native, Vue.js or Nuxt.js ecosystem for Frontend Development" and "Node.js, Java Spring or Ruby on Rails ecosystem for Backend API Development" along with "Multiple Database options (PostgreSQL, MySQL, MongoDB, DynamoDB, etc)" to choose from for Data Persistence.</p>
+     <p className='pt-4 text-black/75 md:text-xl font-normal'>When it comes to Web API's, I can work with both REST API and GraphQL API.</p>
+     <p className='pt-4 text-black/75 md:text-xl font-normal'>I have a Master's Degree in Computer Applications and is a Java, Javascript, and TypeScript Developer and my current Full Stack Tech-Stack revolves around that for building Web Apps & APIs. I hold a Master's Degree in Computer Applications, and is an Amazon Web Services (AWS) Certified Developer Associate. I also know Python & Ruby.</p>
      </div>
 
      {/* filter */}

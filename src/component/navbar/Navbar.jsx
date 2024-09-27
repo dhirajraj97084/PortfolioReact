@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { IoMenu } from 'react-icons/io5'
+import { RxCross2 } from 'react-icons/rx'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
+  const [menu, setMenu] = useState(false);
   return (
-    <div className=' bg-transparent text-white'>
+    <div className=' bg-transparent text-white shadow-md '>
       {/* navbar */}
       <div className="main container mx-auto flex justify-between lg:px-[13rem] items-center px-8 sm:px-16  py-2">
         {/* logo */}
@@ -21,7 +24,12 @@ function Navbar() {
           </ul>
         </div>
          {/* mobileMenu */}
-        <div className="div md:hidden text-black">mobile</div>
+        <div className="div md:hidden text-black">
+        {(!menu)?
+        <button onClick={()=>setMenu(!menu)} className='p-1 rounded-md bg-gray-200'><IoMenu className='text-4xl' /></button>:
+        <button onClick={()=>setMenu(!menu)} className='p-1 rounded-md bg-gray-200'><RxCross2 className='text-4xl' /></button>
+       }
+        </div>
       </div>
     </div>
   )

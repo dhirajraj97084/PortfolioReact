@@ -4,6 +4,7 @@ import { FaFacebook, FaGithub } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 import pdf from '../pdf/resume.pdf'
 import { FaHandsClapping } from 'react-icons/fa6';
+import { ReactTyped } from "react-typed";
 
 function HeroSection() {
   return (
@@ -20,7 +21,15 @@ function HeroSection() {
         <div className="box  md:pt-0 pt-10">
           <p className='  text-xs md:text-sm pb-4  md:hover:scale-110 transition-all flex gap-3 font-light'>HELLO , THERE <span className='text-xl text-yellow-400'> <FaHandsClapping /></span></p>
           <h1 className='font-black text-2xl md:text-5xl lg:text-5xl pb-2 text-black md:hover:scale-110 transition-all' >I am Dhiraj Kumar Tiwari ,</h1>
-          <h1 className='font-bold text-[#dc2626] text-2xl md:text-5xl leading-tight  pb-3 md:hover:scale-110 transition-all'>I'm Full Stack Developer</h1>
+          {/* <h1 className='font-bold text-[#dc2626] text-2xl md:text-5xl leading-tight  pb-3 md:hover:scale-110 transition-all'>I'm Full Stack Developer</h1> */}
+          <div className="div">
+          <ReactTyped  
+          className='font-bold text-[#dc2626] text-2xl md:text-5xl leading-tight  pb-3'        
+          strings={["I'm Full Stack Developer"," I'm  UI/UX Developer"]}
+          typeSpeed={40}
+          loop="infinity"
+        />
+          </div>
           <h1 className='font-black text-2xl md:text-5xl leading-tight  pb-3 md:hover:scale-110 transition-all'>based in India .</h1>
           <p className='pt-3 text-xl'>Dhiraj Kumar Tiwari, a Full-stack Developer who can build you web  applications with an array of frontend and backend stack like React.js, Next.js, Tailwindcss, Node.js , Expressjs , MongoDb, etc.</p>          
           {/* buttons */}
