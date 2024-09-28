@@ -8,7 +8,7 @@ import { ReactTyped } from "react-typed";
 
 function HeroSection() {
   return (
-    <div className='md:h-[41rem] pb-8  flex items-center justify-center'>
+    <div name="home" className='md:h-[41rem] pb-8  flex items-center justify-center'>
       {/* heroSection */}
       <div className="main grid grid-cols-1 md:grid-cols-2 lg:gap-28 md:gap-10 px-8 sm:gap-16 ">        
         {/* leftPart */}
