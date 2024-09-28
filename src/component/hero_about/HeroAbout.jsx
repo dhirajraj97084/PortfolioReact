@@ -32,7 +32,7 @@ function HeroAbout() {
       <div>
         <button
           onClick={toggleDropdown}
-          className="inline-flex justify-center rounded-md border border-gray-300 shadow-sm w-full px-36  py-2 bg-gray-800 text-sm font-medium text-white hover:bg-gray-700 focus:outline-none"
+          className="inline-flex justify-center rounded-md border border-gray-300 shadow-sm w-full px-32  py-2 bg-gray-800 text-sm font-medium text-white hover:bg-gray-700 focus:outline-none"
         >
           About Me
         </button>
