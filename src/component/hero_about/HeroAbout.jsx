@@ -10,7 +10,7 @@ function HeroAbout() {
 };
 return (
   <div>
-    <div name="contact" className="main px-8 md:px-16 lg:px-[12rem]">
+    <div name="about" className="main px-8 md:px-16 lg:px-[12rem]">
       <div className="heading  ">
         <h1 className='flex justify-center text-2xl md:text-4xl lg:text-5xl font-black '>About Dhiraj !</h1>
         <div data-aos="zoom-out-down" data-aos-duration="2000" className="para py-4 md:py-8">
