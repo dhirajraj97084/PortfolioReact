@@ -49,8 +49,8 @@ function Navbar() {
          {/* mobileMenu */}
         <div onClick={()=>setMenu(!menu)} className="div md:hidden ">
         {(!menu)?
-        <button  className='p-1 rounded-md '><IoMenu className='text-3xl' /></button>:
-        <button  className='p-1 rounded-md '><RxCross2 className='text-3xl' /></button>
+        <button  className='p-1 rounded-md '><IoMenu className='text-4xl' /></button>:
+        <button  className='p-1 rounded-md '><RxCross2 className='text-4xl' /></button>
        }
         </div>
         <div onClick={()=>setToggle(!toggle)} className="div md:hidden block ">

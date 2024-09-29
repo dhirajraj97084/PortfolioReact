@@ -8,7 +8,7 @@ import { ReactTyped } from "react-typed";
 
 function HeroSection() {
   return (
-    <div name="home" className='md:h-[41rem] pb-8  flex items-center justify-center'>
+    <div  data-aos="zoom-in-down" data-aos-duration="2000" name="home" className='md:h-[41rem] pb-8  flex items-center justify-center'>
       {/* heroSection */}
       <div className="main grid grid-cols-1 md:grid-cols-2 lg:gap-28 md:gap-10 px-8 sm:gap-16 ">        
         {/* leftPart */}
@@ -37,7 +37,7 @@ function HeroSection() {
           {/* buttons */}
           <div className="button flex md:gap-8 gap-6 pt-5 justify-start">
             <a target='_blank' href={pdf} download="resume.pdf">
-              <button className="md:px-6 px-4 py-2 rounded-md  bg-red-600 text-xs md:text-sm">
+              <button className="md:px-6 px-4 py-2 rounded-md text-white  bg-red-600 text-xs md:text-sm">
                 Download Resume
               </button>
             </a>
@@ -50,10 +50,10 @@ function HeroSection() {
               <Link target='_blank' to={'https://github.com/dhirajraj97084'}><button className='rounded-full p-1  cursor-pointer'><FaGithub className='text-3xl bg-black rounded-md text-white' /></button></Link>
             </div>
             <div className="linkden">
-              <Link target='_blank' to={'https://www.linkedin.com/feed/'}><button className='rounded-full p-1  cursor-pointer'><CiLinkedin className=' text-3xl bg-blue-900   rounded-md' /></button></Link>
+              <Link target='_blank' to={'https://www.linkedin.com/feed/'}><button className='rounded-full p-1  cursor-pointer'><CiLinkedin className=' text-3xl bg-blue-900 text-white  rounded-md' /></button></Link>
             </div>
             <div className="youtube">
-              <Link target='_blank'><button className='rounded-full p-1  cursor-pointer'><FaYoutube className=' text-3xl bg-red-600   rounded-md' /></button></Link>
+              <Link target='_blank'><button className='rounded-full p-1 text-white cursor-pointer'><FaYoutube className=' text-3xl bg-red-600   rounded-md' /></button></Link>
             </div>
             <div className="twitter">
               <Link target='_blank'><button className='rounded-full p-1  cursor-pointer'><FaTwitter className=' text-3xl text-blue-900   rounded-md' /></button></Link>
