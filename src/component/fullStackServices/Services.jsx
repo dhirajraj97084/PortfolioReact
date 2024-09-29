@@ -16,7 +16,7 @@ function Services() {
       <div className="heading">
         <h1 className='flex justify-center text-2xl md:text-4xl lg:text-5xl font-black '>My Full Stack Services!</h1>
         <div className="para py-4 md:py-8">
-          <p className='pt-4 text-black/75 md:text-xl font-normal max-w-5xl mx-auto text-pretty'>I specialize in full-stack web development using the MERN stack (MongoDB, Express.js, React, Node.js). I build dynamic, high-performance web applications tailored to your business needs. From designing responsive user interfaces with React to managing databases with MongoDB, I ensure efficient and scalable solutions. My services include API integration, authentication, and deploying robust, secure apps, making your web presence stand out and deliver a seamless user experience across devices.</p>
+          <p className='pt-4  md:text-xl font-normal max-w-5xl mx-auto text-pretty'>I specialize in full-stack web development using the MERN stack (MongoDB, Express.js, React, Node.js). I build dynamic, high-performance web applications tailored to your business needs. From designing responsive user interfaces with React to managing databases with MongoDB, I ensure efficient and scalable solutions. My services include API integration, authentication, and deploying robust, secure apps, making your web presence stand out and deliver a seamless user experience across devices.</p>
         </div>
         <div className="card md:max-w-5xl mx-auto">
           <div className="mb-2 md:mb-6  py-10">
@@ -24,10 +24,10 @@ function Services() {
               <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 ">
                 {
                   cardData.map((item,index)=>(
-                    <div key={index} className="item text-black bg-white shadow-xl py-4 px-3 hover:bg-gray-200 hover:border-b-2 border-red-400 w-full">
+                    <div key={index} className="item  shadow-xl py-4 px-3 hover:bg-black/85 hover:border-b-2 border-red-400 w-full">
                         <img className='mx-auto' src={item.icon} alt="img" />
                        <h1 className='text-center text-2xl md:text-3xl font-bold pb-4 '>{item.title}</h1>
-                       <p className=' text-center text-sm md:text-sm text-black/85 '>{item.description}</p>
+                       <p className=' text-center text-sm md:text-sm  '>{item.description}</p>
                     </div>
                   ))
                 }

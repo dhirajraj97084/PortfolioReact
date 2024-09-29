@@ -6,7 +6,10 @@ import HeroAbout from '../../component/hero_about/HeroAbout'
 import Services from '../../component/fullStackServices/Services'
 import AllProjects from '../../component/allProjects/AllProjects'
 
+
+
 function Home() {
+  
   return (
     <div className=''>
      <Navbar/>
