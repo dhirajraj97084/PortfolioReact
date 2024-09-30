@@ -1,10 +1,12 @@
 import React from 'react'
 import { CiLinkedin } from 'react-icons/ci'
-import { FaFacebook, FaGithub, FaTwitter, FaYoutube } from 'react-icons/fa'
-import { Link } from 'react-router-dom';
+import {FaGithub, FaTwitter, FaYoutube } from 'react-icons/fa'
 import pdf from '../pdf/resume.pdf'
 import { FaHandsClapping } from 'react-icons/fa6';
 import { ReactTyped } from "react-typed";
+import { Link } from 'react-router-dom';
+
+
 
 function HeroSection() {
   return (
@@ -41,7 +43,7 @@ function HeroSection() {
                 Download Resume
               </button>
             </a>
-            <Link><button className='md:px-6 px-4  py-2 border border-red-600 text-red-600 rounded-md bg-transparent hover:bg-red-600   text-xs hover:text-white md:text-sm'>CONTACT ME</button></Link>
+            <Link to={'/contact'}><button className='md:px-6 px-4  py-2 border border-red-600 text-red-600 rounded-md bg-transparent hover:bg-red-600   text-xs hover:text-white md:text-sm'>CONTACT ME</button></Link>
           </div>
           {/* socialmedia */}
           <div className="social flex items-center  justify-start gap-5 pt-4 md:pt-8">

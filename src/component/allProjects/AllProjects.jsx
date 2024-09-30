@@ -6,37 +6,37 @@ const projects = [
         title: 'Digital Marketing',
         description: 'A dynamic digital marketing website using react and Tailwindcss.',
         imageUrl: '/digi.png',
-        projectUrl: 'https://example.com/project1',
+        projectUrl: 'https://digital-marketing-agency-e51s.vercel.app/',
     },
     {
         title: 'Book Store',
         description: 'A responsive Bookstore website built with React , tailwindcss and daisyUI',
         imageUrl: '/book.png',
-        projectUrl: 'https://example.com/project2',
+        projectUrl: 'https://book-store-peach-eight.vercel.app/',
     },
     {
         title: 'Chemical Marketing',
         description: 'An interactive Metal prepenting chemicals platform using tailwindcss , reactjs ,Material Tilwindcss.',
         imageUrl: '/np.png',
-        projectUrl: 'https://example.com/project3',
+        projectUrl: 'https://npi-companies.vercel.app/',
     },
     {
         title: 'Photography',
         description: 'An interactive Wedding , Photography Website using tailwindcss , reactjs ,Material Tilwindcss.',
         imageUrl: '/graphi.png',
-        projectUrl: 'https://example.com/project4',
+        projectUrl: 'https://silk-self.vercel.app/',
     },
     {
         title: 'Portfolio',
         description: 'A portfolio site showcasing professional projects..using Nextjs and shadcn UI component ',
         imageUrl: '/nextjs.png',
-        projectUrl: 'https://example.com/project5',
+        projectUrl: 'https://nextjs-01-project.vercel.app/',
     },
     {
         title: 'Digital Marketing',
         description: 'An interactive social media platform with react,tailwindcss , animation using React-Motion',
         imageUrl: '/onlinegrow.png',
-        projectUrl: 'https://example.com/project6',
+        projectUrl: 'https://digital-silk.vercel.app/',
     },
 ];
 
@@ -55,8 +55,8 @@ function AllProjects() {
                 {
                     projects.map((item,index)=>(
                         <div data-aos="zoom-in" data-aos-duration="2000" key={index} className=" shadow-xl p-2 rounded-md">
-                           <Link to={item.projectUrl}> <img src={item.imageUrl} alt="" /></Link>
-                           <h1 className='text-xl font-bold py-2'>{item.title}</h1>
+                           <Link target='_blank' to={item.projectUrl}> <img src={item.imageUrl} alt="" /></Link>
+                           <Link target='_blank' to={item.projectUrl}><h1 className='text-xl font-bold py-2'>{item.title}</h1></Link>
                            <h1 className='text-sm'>{item.description}</h1>
                         </div>
                     ))

@@ -65,7 +65,7 @@ function Navbar() {
           menu && (
             <ul className='flex flex-col items-center font-bold cursor-pointer space-y-4 pb-4'>
               <Link onClick={() => setMenu(false)}><li className='hover:scale-105 transition-all text-red-600 underline underline-offset-8'>Home</li></Link>
-              <Link to={'contact'} smooth={true} duration={500} offset={-70} activeClass="active" onClick={() => setMenu(false)}><li className='hover:scale-105 transition-all hover:text-red-600'>About</li></Link>
+              <Link to={'about'} smooth={true} duration={500} offset={-70} activeClass="active" onClick={() => setMenu(false)}><li className='hover:scale-105 transition-all hover:text-red-600'>About</li></Link>
               <Link to={'services'} smooth={true} duration={500} offset={-70} activeClass="active" onClick={() => setMenu(false)}><li className='hover:scale-105 transition-all hover:text-red-600'>Services</li></Link>
               <Link to={'allProjects'} smooth={true} duration={500} offset={-70} activeClass="active" onClick={() => setMenu(false)}><li className='hover:scale-105 transition-all hover:text-red-600'>All Projects</li></Link>
               {/* <Link onClick={() => setMenu(false)}><li className='hover:scale-105 transition-all hover:text-red-600'>Portfolio</li></Link> */}

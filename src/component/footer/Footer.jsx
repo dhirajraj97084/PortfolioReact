@@ -20,10 +20,10 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Follow Me</h3>
             <div className="flex space-x-6">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+              <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                 <FaLinkedin size={24} />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+              <a href="https://github.com/dhirajraj97084" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                 <FaGithub size={24} />
               </a>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
@@ -36,9 +36,9 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact</h3>
             <ul className="text-gray-400">
-              <li>Email: example@example.com</li>
-              <li>Phone: +123 456 7890</li>
-              <li>Location: Your City, Country</li>
+              <li>Email: dhirajraj97084@gmail.com</li>
+              <li>Phone: +91 7633061405 </li>
+              <li>Location: Prem nagar, Dehradun </li>
             </ul>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="flex flex-col md:flex-row items-center justify-between text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Dhiraj Kumar Tiwari. All rights reserved.</p>
           <p>Developed with MERN stack</p>
         </div>
       </div>
