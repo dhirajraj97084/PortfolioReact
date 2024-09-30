@@ -15,7 +15,7 @@ function Services() {
     <div name="services" className="main px-8 md:px-16 lg:px-[12rem]">
       <div className="heading">
         <h1 className='flex justify-center text-2xl md:text-4xl lg:text-5xl font-black '>My Full Stack Services!</h1>
-        <div data-aos="zoom-out-down" data-aos-duration="2000" className="para py-4 md:py-8">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"  className="para py-4 md:py-8">
           <p  className='pt-4  md:text-xl font-normal max-w-5xl mx-auto text-pretty'>I specialize in full-stack web development using the MERN stack (MongoDB, Express.js, React, Node.js). I build dynamic, high-performance web applications tailored to your business needs. From designing responsive user interfaces with React to managing databases with MongoDB, I ensure efficient and scalable solutions. My services include API integration, authentication, and deploying robust, secure apps, making your web presence stand out and deliver a seamless user experience across devices.</p>
         </div>
         <div className="card md:max-w-5xl mx-auto">

@@ -3,22 +3,22 @@ import React, { useEffect, useRef } from 'react';
 // Testimonial Data
 const testimonials = [
   {
-    name: "John Doe",
+    name: "Kamal Nayan Upadhaya",
     message: "This service was fantastic! Highly recommend.",
-    role: "CEO at ExampleCorp"
+    role: "Full Stack Developer"
   },
   {
-    name: "Jane Smith",
+    name: "Ashis Priyadarshi",
     message: "A wonderful experience from start to finish.",
-    role: "Marketing Manager at CompanyX"
+    role: "UI/UX Designer"
   },
   {
-    name: "Sam Wilson",
+    name: "Himanshu Danu",
     message: "Great customer service and high-quality results.",
     role: "Freelancer"
   },
   {
-    name: "Alice Johnson",
+    name: "Ritesh",
     message: "My go-to place for reliable results every time.",
     role: "Designer at DesignHub"
   },
@@ -57,7 +57,7 @@ const Testimonials = () => {
         {/* Clone testimonials twice to create infinite scrolling illusion */}
         {[...testimonials, ...testimonials].map((testimonial, index) => (
           <div key={index} className="min-w-[300px]  p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
-            <p className="text-lg italic mb-4">"{testimonial.message}"</p>
+            <p className="text-lg  mb-4">"{testimonial.message}"</p>
             <h4 className="font-bold text-lg text-blue-600">{testimonial.name}</h4>
             <p className="text-sm text-gray-500">{testimonial.role}</p>
           </div>

@@ -49,11 +49,11 @@ const ContactForm = () => {
 
     return (
         <div>
-            <div name="contact" className="main px-8 md:px-16 lg:px-[12rem]">
+            <div name="contact" className="main px-8 md:px-16 lg:px-[12rem] ">
                 <div className="heading pt-4">
                     <h1 className='flex justify-center text-2xl md:text-4xl lg:text-5xl font-black'>Contact Me</h1>
                 </div>
-                <div className="flex justify-center md:py-6 lg:py-8">
+                <div data-aos="zoom-in" data-aos-duration="2000" className="flex justify-center md:py-6 lg:py-8">
                     <div className="px-8 py-4 rounded-lg bg-white shadow-xl max-w-lg w-full">
                         <form onSubmit={handleSubmit}>
                             {/* Full Name Input */}
