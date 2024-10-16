@@ -38,7 +38,7 @@ function HeroSection() {
           <p className='pt-3 text-xl'>Hi, I’m Dhiraj Kumar Tiwari, a full stack MERN developer with a passion for building dynamic and scalable web applications that solve real-world problems.</p>          
           {/* buttons */}
           <div className="button flex md:gap-8 gap-6 pt-5 justify-start">
-            <a target='_blank' href={pdf} download="resume.pdf">
+            <a target='_blank' href={pdf} download="dhiraj.pdf">
               <button className="md:px-6 px-4 py-2 rounded-md text-white  bg-red-600 text-xs md:text-sm">
                 Download Resume
               </button>
