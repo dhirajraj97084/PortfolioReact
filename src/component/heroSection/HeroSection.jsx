@@ -43,7 +43,7 @@ function HeroSection() {
                 Download Resume
               </button>
             </a>
-            <Link to={'/contact'}><button className='md:px-6 px-4  py-2 border border-red-600 text-red-600 rounded-md bg-transparent hover:bg-red-600   text-xs hover:text-white md:text-sm'>CONTACT ME</button></Link>
+            <Link to={'/'}><button className='md:px-6 px-4  py-2 border border-red-600 text-red-600 rounded-md bg-transparent hover:bg-red-600   text-xs hover:text-white md:text-sm'>CONTACT ME</button></Link>
           </div>
           {/* socialmedia */}
           <div className="social flex items-center  justify-start gap-5 pt-4 md:pt-8">
