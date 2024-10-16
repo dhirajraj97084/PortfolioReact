@@ -1,7 +1,7 @@
 import React from 'react'
 import { CiLinkedin } from 'react-icons/ci'
 import {FaGithub, FaTwitter, FaYoutube } from 'react-icons/fa'
-import pdf from '../pdf/resume.pdf'
+import pdf from '../pdf/dhiraj.pdf'
 import { FaHandsClapping } from 'react-icons/fa6';
 import { ReactTyped } from "react-typed";
 import { Link } from 'react-router-dom';
