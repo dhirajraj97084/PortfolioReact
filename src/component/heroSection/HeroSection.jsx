@@ -16,19 +16,19 @@ function HeroSection() {
         {/* leftPart */}
         <div className="box mx-auto my-auto pt-16">
           <div className="img border-2 border-black rounded-xl">
-            <img src="/pt.jpg" className='h-[18rem] w-[15rem] rounded-xl sm:h-[20rem] sm:w-[18rem]' alt="img" />
+            <img src="/pt.jpg" className='h-[18rem] w-[15rem] rounded-xl sm:h-[20rem] sm:w-[18rem] md:h-[26rem] md:w-[20rem]' alt="img" />
           </div>
         </div>
         {/* rightPart */}
         <div className="box  md:pt-0 pt-10">
           <p className='  text-xs md:text-sm pb-4  md:hover:scale-110 transition-all flex gap-3 font-light'>HELLO , THERE <span className='text-xl text-yellow-400'> <FaHandsClapping /></span></p>
-          <h1 className='font-black text-xl md:text-3xl lg:text-5xl pb-2 ' >I am Dhiraj Kumar Tiwari ,</h1>
+          <h1 className='font-black text-xl md:text-2xl lg:text-5xl pb-2 ' >I am Dhiraj Kumar Tiwari ,</h1>
           {/* <h1 className='font-bold text-[#dc2626] text-2xl md:text-5xl leading-tight  pb-3 md:hover:scale-110 transition-all'>I'm Full Stack Developer</h1> */}
-          <div className='font-bold text-[#dc2626] text-xl md:text-3xl lg:text-5xl leading-tight  flex space-x-3'>
+          <div className='font-bold text-[#dc2626] text-xl md:text-2xl lg:text-5xl leading-tight  flex space-x-3'>
             <h1 > I'm  a</h1>
           <ReactTyped  
-          className='font-bold text-[#dc2626] text-xl md:text-3xl lg:text-5xl leading-tight  pb-3'        
-          strings={["Mern Stack Developer,","Frontend Web Developer,","Backend Developer ,"," UI/UX Developer ."]}
+          className='font-bold text-[#dc2626] text-xl md:text-2xl lg:text-5xl leading-tight pb-3'        
+          strings={["Mern Stack Developer,","Frontend Web Developer,","Backend Developer ,","UI/UX Developer ."]}
           typeSpeed={40}
           backSpeed={50}
           loop="infinity"

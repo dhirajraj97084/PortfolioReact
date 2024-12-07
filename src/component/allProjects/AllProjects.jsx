@@ -51,7 +51,7 @@ function AllProjects() {
                     </div>
                 </div>
                 {/* projects */}
-               <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 mx-auto pb-6">
+               <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 md:gap-6 mx-auto pb-6">
                 {
                     projects.map((item,index)=>(
                         <div data-aos="zoom-in" data-aos-duration="2000" key={index} className=" shadow-xl p-2 rounded-md">
