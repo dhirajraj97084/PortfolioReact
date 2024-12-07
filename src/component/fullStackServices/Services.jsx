@@ -1,8 +1,9 @@
 import React from 'react'
 
 const cardData = [
-  { title: 'Frontend Web Development', description:' frontend development using React and Tailwind CSS to create visually appealing, high-performance web interfaces. With React component-based architecture, I build scalable and maintainable UIs, ensuring smooth user interactions.', icon:"https://cdn-icons-png.flaticon.com/128/9122/9122626.png" },
   { title: 'Full Stack Web Development', description: 'I specialize in full-stack web development using the MERN stack (MongoDB, Express.js, React, Node.js). I build dynamic, high-performance web applications tailored to your business needs',icon:"https://cdn-icons-png.flaticon.com/128/16437/16437744.png" },
+  { title: 'Frontend Web Development', description:' frontend development using React and Tailwind CSS to create visually appealing, high-performance web interfaces. With React component-based architecture, I build scalable and maintainable UIs, ensuring smooth user interactions.', icon:"https://cdn-icons-png.flaticon.com/128/9122/9122626.png" },
+ 
 
   { title: 'Backend API Development', description: 'As a back-end web developer I am responsible for server-side web application logic and integration of the work to the front-end. Back-end development usually involves the process to write the web services and APIs used by front-end portion of the website/webapp', icon:"https://cdn-icons-png.flaticon.com/128/17580/17580487.png" },
 
