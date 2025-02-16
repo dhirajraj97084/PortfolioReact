@@ -21,7 +21,7 @@ const Filter = () => {
           <tr>
             <td className="border border-gray-300 px-4 py-2 text-center">Data Structures, C++</td>
             <td className="border border-gray-300 px-4 py-2 text-center">B.Tech (CSE), Dehradun</td>
-            <td className="border border-gray-300 px-4 py-2 text-center">9.32 CGPA</td>
+            <td className="border border-gray-300 px-4 py-2 text-center">9.11 CGPA</td>
             <td className="border border-gray-300 px-4 py-2 text-center">Internshala (Web Development)</td>
           </tr>
           <tr>

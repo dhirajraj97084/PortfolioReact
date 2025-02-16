@@ -28,14 +28,14 @@ function HeroSection() {
             <h1 > I'm  a</h1>
           <ReactTyped  
           className='font-bold text-[#dc2626] text-xl md:text-2xl lg:text-5xl leading-tight pb-3'        
-          strings={["Mern Stack Developer,","Frontend Web Developer,","Backend Developer ,","UI/UX Developer ."]}
+          strings={["Frontend Developer,","UI/UX Developer."]}
           typeSpeed={40}
           backSpeed={50}
           loop="infinity"
         />
           </div>
           <h1 className='font-black text-xl md:text-3xl lg:text-5xl leading-tight  pb-3 '>based in India .</h1>
-          <p className='pt-3 text-xl'>Hi, I’m Dhiraj Kumar Tiwari, a full stack MERN developer with a passion for building dynamic and scalable web applications that solve real-world problems.</p>          
+          <p className='pt-3 text-xl'>Hi, I’m Dhiraj Kumar Tiwari, a Frontent developer with a passion for building dynamic and scalable web applications that solve real-world problems.</p>          
           {/* buttons */}
           <div className="button flex md:gap-8 gap-6 pt-5 justify-start">
             <a target='_blank' href={pdf} download="dhiraj.pdf">
